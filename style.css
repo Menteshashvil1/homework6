@@ -1,0 +1,540 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:50px;
+    row-gap: 50px;
+    width: 90%;
+    margin: auto;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 260px;
+    height: 271px;
+  }
+  .logo{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  header{
+    width: 100%;
+    height: 119px;
+    border: 1px solid #000000;
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;     
+    width: 90%;
+    height: 119px;
+    margin: auto;
+    align-items: center;
+    
+  }
+  header nav ul{
+    display: flex;
+    gap:100px;
+    list-style: none;
+  }
+  header nav ul li a{
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .header-input{
+    width: 336px;
+    height: 41px;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+  }
+  .search-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 390px;
+    top: 56px;
+  }
+  .section1 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 120px;
+    margin:auto;
+    list-style: none;
+    gap: 20px;
+  }
+  .section1 ul li a{
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+   
+    
+  }
+  .section1 div{
+    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;  
+    width: 109px;
+    height: 34px;
+    text-align: center;
+    
+  }
+  .grid-div1{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .grid-div2{
+    display: grid;
+    grid-template-columns: auto ;
+    
+   
+  }
+  .grid-div2 .pannel1, .pannel2, .pannel3, .pannel4{
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+  }
+
+
+
+        /* panel1 */
+  .pannel1{
+    background: #D4ECDD;
+    border: solid 1px #D4ECDD;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  h6{
+   font-family: 'Red Hat Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   color: #FFFFFF;
+   background-color: #FFFFFF;
+   opacity: 0;
+  }
+  h6:hover{
+   opacity: 100;
+   cursor: pointer;
+  }
+  
+  .pannel2{
+    background-color: #345B63;
+    border: solid 1px #345B63;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pannel3{
+    background: #152D35;
+    border: solid 1px #152D35;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pannel4{
+    background:#112031;
+    border: solid 1px #112031;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pannel-ending{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    height: 40px;
+  }
+  .mini-div{
+    display: flex;
+    gap: 25px;
+  }
+  .uriela{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+  .uriela h6{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+  }
+
+
+  /* panel2 */
+  .pannel12{
+    background: #F9F3DF;
+    border: solid 1px #F9F3DF;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pannel22{
+    background: #CDF2CA ;
+    border: solid 1px #CDF2CA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .pannel32{
+    background: #FFDEFA;
+    border: solid 1px #FFDEFA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .pannel42{
+    background: #FFC898;
+    border: solid 1px #FFC898;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ /* panel3 */
+ .pannel13{
+    background: #3330E4;
+    border: solid 1px #3330E4;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel23{
+    background: #F637EC ;
+    border: solid 1px #F637EC;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel33{
+    background: #FBB454;
+    border: solid 1px #FBB454;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel43{
+    background: #FAEA48;
+    border: solid 1px #FAEA48;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ /* panel4 */
+ .pannel14{
+    background: #CDF0EA;
+    border: solid 1px #CDF0EA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel24{
+    background:#F9F9F9 ;
+    border: solid 1px #F9F9F9;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel34{
+    background: #F6C6EA ;
+    border: solid 1px #F6C6EA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel44{
+    background: #FAF4B7 ;
+    border: solid 1px #FAF4B7;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ /* panel5 */
+ .pannel15{
+    background: #D9D7F1;
+    border: solid 1px #D9D7F1;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .pannel25{
+    background: #FFFDDE;
+    border: solid 1px #FFFDDE;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel35{
+    background: #E7FBBE;
+    border: solid 1px #E7FBBE;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .pannel45{
+    background: #FFCBCB;
+    border: solid 1px #FFCBCB;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+ }
+ /* panel6 */
+ .pannel16{
+    background:#990000 ;
+    border: solid 1px #990000;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel26{
+    background: #FF5B00;
+    border: solid 1px #FF5B00;
+    width: 257px ;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel36{
+    background: #D4D925;
+    border: solid 1px #D4D925;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel46{
+    background: #FFEE63;
+    border: solid 1px #FFEE63;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ /* panel7 */
+ .pannel17{
+    background:#B91646;
+    border: solid 1px #B91646;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel27{
+    background:#DFD8CA ;
+    border: solid 1px #DFD8CA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel37{
+    background: #FBF3E4;
+    border: solid 1px #FBF3E4;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel47{
+    background:#105652 ;
+    border: solid 1px #105652;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ /* panel8 */
+ .pannel18{
+    background:#CDF0EA ;
+    border: solid 1px #CDF0EA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel28{
+    background: #F9F9F9;
+    border: solid 1px #F9F9F9;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel38{
+    background: #F6C6EA;
+    border: solid 1px #F6C6EA;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel48{
+    background:#FAF4B7 ;
+    border: solid 1px #FAF4B7;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ /* panel9 */
+ .pannel19{
+    background: #FFCC1D;
+    border: solid 1px #FFCC1D;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel29{
+    background: #0B4619;
+    border: solid 1px #0B4619;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel39{
+    background: #116530;
+    border: solid 1px #116530;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel49{
+    background: #E8E8CC;
+    border: solid 1px #E8E8CC;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ /* panel10 */
+ .pannel110{
+    background: #00FFAB;
+    border: solid 1px #00FFAB;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel210{
+    background: #14C38E;
+    border: solid 1px #14C38E;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel310{
+    background:#B8F1B0 ;
+    border: solid 1px #B8F1B0;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel410{
+    background: #E3FCBF;
+    border: solid 1px #E3FCBF;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ /* panel11 */
+ .pannel111{
+    background: #49FF00;
+    border: solid 1px #49FF00;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel211{
+    background:#FBFF00 ;
+    border: solid 1px #FBFF00;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel311{
+    background: #FF9300;
+    border: solid 1px #FF9300;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel411{
+    background: #FF0000;
+    border: solid 1px #FF0000;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ /* panel12 */
+ .pannel112{
+    background:#06283D ;
+    border: solid 1px #06283D;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel212{
+    background: #1363DF;
+    border: solid 1px #1363DF;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel312{
+    background:#1363DF ;
+    border: solid 1px #1363DF;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
+ .pannel412{
+    background:#DFF6FF ;
+    border: solid 1px#DFF6FF;
+    width: 257px;
+    height: 51.9px;
+    border-radius: 4px;
+ }
